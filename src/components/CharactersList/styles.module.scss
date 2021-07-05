@@ -1,0 +1,19 @@
+.charactersListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 90%;
+  height: 64vh;
+  overflow-y: auto;
+
+  margin: 1rem 0 0.5rem 0;
+
+  .feedbackContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 64vh;
+  }
+}
